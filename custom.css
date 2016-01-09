@@ -84,4 +84,16 @@ body {
 .address p {
   margin: 2px; }
 
+/* Team page */
+p {
+  font-size: 1em; }
+
+img {
+  margin: 20px;
+  height: 65%;
+  width: 65%; }
+
+.description {
+  margin-top: 20px; }
+
 /*# sourceMappingURL=custom.css.map */
