@@ -1,0 +1,141 @@
+$black: #000;
+$white: #fff;
+$red: #ff0000;
+$blue: #3333ff;
+$orange: #ff9900;
+$green: #33cc00;
+$purple: #9900cc;
+
+$regularSize: 1.15em;
+
+/* Font-family */
+body {
+  font-family: 'Lora', serif;
+  background-color: #FFFFFC;
+}
+
+#landingImage {
+  width: 100%;
+  height: auto;
+}
+
+/* Landing Page */
+
+@media (min-width: 200px) {
+  #logoHeader {
+
+    font-family: 'Helvetica Neue', sans-serif;
+
+    h2 {
+      font-size: 2.5em;
+      font-weight: 500;
+    }
+
+    h4 {
+    font-weight: 100;
+    }
+  }
+
+  #landingImage {
+    margin-bottom: 20px;
+  }
+}
+
+/* NavBar */
+
+.underline {
+  border-bottom: 1px solid $black;
+}
+
+.underline-green {
+  border-bottom: 1px solid $green;
+}
+
+.underline-blue {
+  border-bottom: 1px solid $blue;
+}
+
+.underline-orange {
+  border-bottom: 1px solid $orange;
+}
+
+.underline-red {
+  border-bottom: 1px solid $red;  
+}
+
+.underline-purple {
+  border-bottom: 1px solid $purple;
+}
+
+@media (min-width: 200px) {
+  nav {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline;
+
+        a {
+          text-decoration: none;
+          color: $black;
+          font-size: 1.2em;
+          margin: 10px 7px 10px 7px;
+        }
+
+        a:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+/* Main content */
+
+@media (min-width: 200px) {
+  p {
+    font-size: $regularSize;
+  }
+}
+
+/* Services Page */
+
+@media (min-width: 200px) {
+  h4 {
+    font-weight: bold;
+  }
+}
+
+/* Insurances Page */
+@media (min-width: 200px) {
+  #advisory {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid $red;
+  }
+}
+
+/* Online Forms Page */
+@media (min-width: 200px) {
+  .border-orange {
+    border: 2px solid $orange;
+    padding: 10px 20px 10px 20px;
+    margin-top: 15px; 
+  }
+}
+
+/* Locations Page */
+.map {
+  height: 300px;
+  width: 400px;
+  margin: 30px;
+}
+
+.address p {
+  margin: 2px;
+}
