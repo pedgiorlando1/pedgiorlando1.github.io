@@ -10,6 +10,15 @@ body {
 }
 
 /* Landing Page */
+.covid-announcement {
+  border: 5px double #9900cc;
+  background-color: rgba(153, 0, 204, 0.1);
+  padding: 10px 20px 10px 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
 @media (min-width: 200px) {
   #logoHeader {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -96,8 +105,8 @@ body {
 }
 /* Online Forms Page */
 @media (min-width: 200px) {
-  .border-orange {
-    border: 2px solid #ff9900;
+  .border-purple {
+    border: 3px solid #9900cc;
     padding: 10px 20px 10px 20px;
     margin-top: 15px;
   }
