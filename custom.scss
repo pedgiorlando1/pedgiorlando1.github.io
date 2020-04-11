@@ -21,6 +21,15 @@ body {
 
 /* Landing Page */
 
+.covid-announcement {
+  border: 5px double $purple;
+  background-color: rgba($color: $purple, $alpha: 0.1);
+  padding: 10px 20px 10px 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 15px; 
+}
+
 @media (min-width: 200px) {
   #logoHeader {
 
@@ -122,8 +131,8 @@ body {
 
 /* Online Forms Page */
 @media (min-width: 200px) {
-  .border-orange {
-    border: 2px solid $orange;
+  .border-purple {
+    border: 3px solid $purple;
     padding: 10px 20px 10px 20px;
     margin-top: 15px; 
   }
